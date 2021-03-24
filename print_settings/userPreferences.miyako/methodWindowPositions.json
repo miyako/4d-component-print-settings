@@ -1,0 +1,68 @@
+﻿{
+	"Sources/Methods/print_settings.4dm": {
+		"left": 308,
+		"top": 176,
+		"width": 1041,
+		"height": 586
+	},
+	"Sources/Methods/TEST.4dm": {
+		"left": 308,
+		"top": 176,
+		"width": 1041,
+		"height": 586
+	},
+	"Trash/Methods/(get_print_settings).4dm": {
+		"left": 605,
+		"top": 283,
+		"width": 787,
+		"height": 568
+	},
+	"Sources/Methods/win_default_source.4dm": {
+		"left": 160,
+		"top": 163,
+		"width": 580,
+		"height": 719
+	},
+	"Sources/Methods/getSettings.4dm": {
+		"left": 430,
+		"top": 317,
+		"width": 985,
+		"height": 700
+	},
+	"Sources/Methods/generateSettings.4dm": {
+		"left": 304,
+		"top": 142,
+		"width": 898,
+		"height": 703
+	},
+	"Sources/Methods/setPrintOption.4dm": {
+		"left": 308,
+		"top": 176,
+		"width": 1041,
+		"height": 586
+	},
+	"Trash/Methods/(jobDuplex).4dm": {
+		"left": 214,
+		"top": 215,
+		"width": 787,
+		"height": 646
+	},
+	"Trash/Methods/(pageOrientation).4dm": {
+		"left": 198,
+		"top": 199,
+		"width": 787,
+		"height": 646
+	},
+	"Trash/Methods/(paperUnit).4dm": {
+		"left": 198,
+		"top": 199,
+		"width": 787,
+		"height": 646
+	},
+	"Sources/Methods/loadSettings.4dm": {
+		"left": 308,
+		"top": 176,
+		"width": 1041,
+		"height": 586
+	}
+}

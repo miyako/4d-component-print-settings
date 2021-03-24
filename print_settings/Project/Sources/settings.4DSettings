@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="3">
+	<com.4d>
+		<php ip_address="127.0.0.1"/>
+		<compiler>
+			<typage default_for_button="2" default_for_numeric="1"/>
+		</compiler>
+		<database>
+			<cache adaptative="false" flush_buffer_delay="20s"/>
+		</database>
+		<server>
+			<network>
+				<options publication_name="print_settings"/>
+			</network>
+		</server>
+	</com.4d>
+</preferences>

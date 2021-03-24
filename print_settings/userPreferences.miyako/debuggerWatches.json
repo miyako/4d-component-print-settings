@@ -1,0 +1,14 @@
+﻿[
+	{
+		"type": 66,
+		"formula": "($size=($o+$jsonSize+$nativeSize))"
+	},
+	{
+		"type": 66,
+		"formula": "$DEVNAMES_size"
+	},
+	{
+		"type": 66,
+		"formula": "$DEVMODE_size"
+	}
+]

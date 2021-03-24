@@ -1,0 +1,65 @@
+﻿{
+	"Sources/Methods/print_settings.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T12:55:05.464Z"
+	},
+	"Sources/Methods/TEST.4dm": {
+		"startSelection": 58,
+		"endSelection": 58,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T12:58:01.590Z"
+	},
+	"Sources/Methods/win_default_source.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 49,
+		"lastSelectedLine": 49,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T08:26:31.584Z"
+	},
+	"Sources/Methods/getSettings.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T09:39:51.855Z"
+	},
+	"Sources/Methods/generateSettings.4dm": {
+		"startSelection": 66,
+		"endSelection": 66,
+		"firstSelectedLine": 297,
+		"lastSelectedLine": 297,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T12:21:28.377Z"
+	},
+	"Sources/Methods/setPrintOption.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 37,
+		"lastSelectedLine": 37,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T12:55:32.890Z"
+	},
+	"Sources/Methods/loadSettings.4dm": {
+		"startSelection": 17,
+		"endSelection": 0,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-03-24T11:57:26.780Z"
+	}
+}

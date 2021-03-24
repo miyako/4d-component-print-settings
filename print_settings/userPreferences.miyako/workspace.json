@@ -1,0 +1,38 @@
+﻿{
+	"editors": [
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483643,
+			"previousTabType": "method",
+			"previousTabID": 2147483641,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "loadSettings"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483641,
+			"previousTabType": "method",
+			"previousTabID": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "print_settings"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "TEST"
+			}
+		},
+		{
+			"type": "toolbox"
+		}
+	]
+}
