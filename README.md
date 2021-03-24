@@ -8,4 +8,4 @@ Windowsの印刷設定をダイレクトに制御
 
 [`DEVMODE`](https://docs.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-devmodew)と[`DEVNAMES`](https://docs.microsoft.com/en-us/windows/win32/api/commdlg/ns-commdlg-devnames)の読み書き
 
-[Color option](https://doc.4d.com/4Dv17/4D/17.5/Print-Options.302-5255443.ja.html)も設定できる・・・かも
+[Color option](https://doc.4d.com/4Dv17/4D/17.5/Print-Options.302-5255443.ja.html)が設定できる・・・かもしれない
