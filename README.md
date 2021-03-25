@@ -48,6 +48,8 @@ $printSettings:=print_settings .getSettings()
 
 the returned object is a shared object representation of `DEVNAMES` or `DEVMODE`. you can read or write any attribute.
 
+alternatively, you can use the `setPrintOption()` utility method (see above).
+
 create a binary print settings BLOB
 
 ```4d
