@@ -54,6 +54,6 @@ create a binary print settings BLOB
 $printSettings:=print_settings .getSettings()
 ```
 
-you can pass this BLOB to ``BLOB to print settings``
+you can pass this to ``BLOB to print settings``
 
 
