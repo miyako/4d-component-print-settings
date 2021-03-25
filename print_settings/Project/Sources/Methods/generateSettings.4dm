@@ -111,13 +111,6 @@ Case of
 			$dmScale:=$DUMMYSTRUCTNAME.dmScale
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmNup)=Is real:K8:4)
-			$dmFields:=$dmFields ?+ 6
-			$dmNup:=$DUMMYSTRUCTNAME.dmNup
-		End if 
-		
-		  //7: DM_DISPLAYORIENTATION not used for printers
-		
 		If (Value type:C1509($DUMMYSTRUCTNAME.dmCopies)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 8
 			$dmCopies:=$DUMMYSTRUCTNAME.dmCopies
@@ -133,32 +126,46 @@ Case of
 			$dmPrintQuality:=$DUMMYSTRUCTNAME.dmPrinterQuality
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmColor)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmColor)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 11
-			$dmColor:=$DUMMYSTRUCTNAME.dmColor
+			$dmColor:=$DEVMODE.dmColor
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmDuplex)=Is real:K8:4)
+		
+		
+		
+		
+		
+		
+		
+		If (Value type:C1509($DUMMYSTRUCTNAME.dmNup)=Is real:K8:4)
+			$dmFields:=$dmFields ?+ 6
+			$dmNup:=$DUMMYSTRUCTNAME.dmNup
+		End if 
+		
+		  //7: DM_DISPLAYORIENTATION not used for printers
+		
+		If (Value type:C1509($DEVMODE.dmDuplex)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 12
-			$dmDuplex:=$DUMMYSTRUCTNAME.dmDuplex
+			$dmDuplex:=$DEVMODE.dmDuplex
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmYResolution)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmYResolution)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 13
-			$dmYResolution:=$DUMMYSTRUCTNAME.dmYResolution
+			$dmYResolution:=$DEVMODE.dmYResolution
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmTTOption)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmTTOption)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 14
-			$dmTTOption:=$DUMMYSTRUCTNAME.dmTTOption
+			$dmTTOption:=$DEVMODE.dmTTOption
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmCollate)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmCollate)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 15
-			$dmCollate:=$DUMMYSTRUCTNAME.dmCollate
+			$dmCollate:=$DEVMODE.dmCollate
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmFormName)=Is text:K8:3)
+		If (Value type:C1509($DEVMODE.dmFormName)=Is text:K8:3)
 			$dmFields:=$dmFields ?+ 16
 		End if 
 		
@@ -169,34 +176,34 @@ Case of
 		  //21: DM_DISPLAYFLAGS not used for printers
 		  //22: DM_DISPLAYFREQUENCY not used for printers
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmICMMetHod)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmICMMetHod)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 23
-			$dmICMMethod:=$DUMMYSTRUCTNAME.dmICMMetHod
+			$dmICMMethod:=$DEVMODE.dmICMMetHod
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmICMintent)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmICMintent)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 24
-			$dmICMIntent:=$DUMMYSTRUCTNAME.dmICMintent
+			$dmICMIntent:=$DEVMODE.dmICMintent
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmMediaType)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmMediaType)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 25
-			$dmMediaType:=$DUMMYSTRUCTNAME.dmMediaType
+			$dmMediaType:=$DEVMODE.dmMediaType
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmDitherType)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmDitherType)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 26
-			$dmDitherType:=$DUMMYSTRUCTNAME.dmDitherType
+			$dmDitherType:=$DEVMODE.dmDitherType
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmPanningWidth)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmPanningWidth)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 27
-			$dmPanningWidth:=$DUMMYSTRUCTNAME.dmPanningWidth
+			$dmPanningWidth:=$DEVMODE.dmPanningWidth
 		End if 
 		
-		If (Value type:C1509($DUMMYSTRUCTNAME.dmPanningHeight)=Is real:K8:4)
+		If (Value type:C1509($DEVMODE.dmPanningHeight)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 28
-			$dmPanningHeight:=$DUMMYSTRUCTNAME.dmPanningHeight
+			$dmPanningHeight:=$DEVMODE.dmPanningHeight
 		End if 
 		
 		  //29: DM_DISPLAYFIXEDOUTPUT not used for printers
@@ -218,7 +225,7 @@ Case of
 		INTEGER TO BLOB:C548($dmTTOption;$_DEVMODE;PC byte ordering:K22:3;*)
 		INTEGER TO BLOB:C548($dmCollate;$_DEVMODE;PC byte ordering:K22:3;*)
 		
-		$dmFormName:=$DUMMYSTRUCTNAME.dmFormName
+		$dmFormName:=$DEVMODE.dmFormName
 		CONVERT FROM TEXT:C1011($dmFormName;"utf-8";$_dmFormName)
 		$CCHFORMNAME:=64  //32 * sizeof wchar_t
 		SET BLOB SIZE:C606($_dmFormName;$CCHFORMNAME;0x0000)

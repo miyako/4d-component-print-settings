@@ -1,17 +1,32 @@
 //%attributes = {}
-$printSettings:=Folder:C1567(fk resources folder:K87:11).file("windows.printSettings").getContent()  //WindowsでPrint settings to BLOBを実行して作成
+print_settings ("windows")
 
-print_settings ($printSettings)
-print_settings .setPrintOption("dmColor";2)  // 1 (DMCOLOR_MONOCHROME), 2 (DMCOLOR_COLOR)
-print_settings .setPrintOption("dmDuplex";2)  // 1 (DMDUP_SIMPLEX), 2 (DMDUP_VERTICAL), 3 (DMDUP_HORIZONTAL)
-print_settings .setPrintOption("dmNup";2)  // 1 (DMNUP_SYSTEM), 2 (DMNUP_ONEUP)
-print_settings .setPrintOption("dmDefaultSource";2)  // 1 (DMBIN_UPPER), 2 (DMBIN_LOWER), 3 (DMBIN_MIDDLE)...
-print_settings .setPrintOption("dmPrintQuality";-3)  //DPI or -1 (DMRES_DRAFT), -2 (DMRES_LOW), -3 (DMRES_MEDIUM), -4 (DMRES_HIGH)
-print_settings .setPrintOption("dmPaperSize";3)  // 1 (DMPAPER_LETTER), 2 (DMPAPER_LETTERSMALL), 3 (DMPAPER_TABLOID)...
-print_settings .setPrintOption("dmOrientation";3)  // 1 (DMORIENT_PORTRAIT), 2 (DMORIENT_LANDSCAPE)
+$printSettings:=print_settings .getSettings()  //object
 
-$printSettings:=print_settings .getSettings()  //オブジェクト型で返す
+ASSERT:C1129(print_settings .setPrintOption("dmOrientation";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmOrientation))
+ASSERT:C1129(print_settings .setPrintOption("dmPaperSize";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperSize))
+ASSERT:C1129(print_settings .setPrintOption("dmPaperLength";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperLength))
+ASSERT:C1129(print_settings .setPrintOption("dmPaperWidth";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPaperWidth))
+ASSERT:C1129(print_settings .setPrintOption("dmScale";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmScale))
+ASSERT:C1129(print_settings .setPrintOption("dmCopies";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmCopies))
+ASSERT:C1129(print_settings .setPrintOption("dmDefaultSource";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmDefaultSource))
+ASSERT:C1129(print_settings .setPrintOption("dmPrintQuality";$printSettings.DEVMODE.DUMMYUNIONNAME.DUMMYSTRUCTNAME.dmPrintQuality))
+ASSERT:C1129(print_settings .setPrintOption("dmColor";$printSettings.DEVMODE.dmColor))
+ASSERT:C1129(print_settings .setPrintOption("dmDuplex";$printSettings.DEVMODE.dmDuplex))
+ASSERT:C1129(print_settings .setPrintOption("dmYResolution";$printSettings.DEVMODE.dmYResolution))
+ASSERT:C1129(print_settings .setPrintOption("dmTTOption";$printSettings.DEVMODE.dmTTOption))
+ASSERT:C1129(print_settings .setPrintOption("dmCollate";$printSettings.DEVMODE.dmCollate))
+ASSERT:C1129(print_settings .setPrintOption("dmFormName";$printSettings.DEVMODE.dmFormName))
+ASSERT:C1129(print_settings .setPrintOption("dmNup";$printSettings.DEVMODE.DUMMYUNIONNAME2.dmNup))
+ASSERT:C1129(print_settings .setPrintOption("dmICMMethod";$printSettings.DEVMODE.dmICMMethod))
+ASSERT:C1129(print_settings .setPrintOption("dmICMIntent";$printSettings.DEVMODE.dmICMIntent))
+ASSERT:C1129(print_settings .setPrintOption("dmMediaType";$printSettings.DEVMODE.dmMediaType))
+ASSERT:C1129(print_settings .setPrintOption("dmDitherType";$printSettings.DEVMODE.dmDitherType))
+ASSERT:C1129(print_settings .setPrintOption("dmPanningWidth";$printSettings.DEVMODE.dmPanningWidth))
+ASSERT:C1129(print_settings .setPrintOption("dmPanningHeight";$printSettings.DEVMODE.dmPanningHeight))
 
-$printSettings:=print_settings .generateSettings()  //BLOBに変換
+$printSettings:=print_settings .getSettings()  //object
 
-$status:=BLOB to print settings:C1434($printSettings)  //印刷設定を変更
+$printSettings:=print_settings .generateSettings()  //blob
+
+ASSERT:C1129(0<BLOB to print settings:C1434($printSettings))

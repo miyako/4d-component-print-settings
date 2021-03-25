@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+    <header>
+        <note>print_settings</note>
+    </header>
+    <group resname="themes">
+        <trans-unit id="5F6953A2DF1749DA8CA48BCAF868448B" resname="5F6953A2DF1749DA8CA48BCAF868448B" translate="no">
+            <source>DMORIENT</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="5F6953A2DF1749DA8CA48BCAF868448B">
+        <trans-unit d4:value="1:L" id="5F6953A2DF1749DA8CA48BCAF868448B.1">
+            <source>DMORIENT_PORTRAIT</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="5F6953A2DF1749DA8CA48BCAF868448B.2">
+            <source>DMORIENT_LANDSCAPE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="CC6F89DB53B44CB791D787757C2A3F28" resname="CC6F89DB53B44CB791D787757C2A3F28" translate="no">
+            <source>DMBIN</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="CC6F89DB53B44CB791D787757C2A3F28">
+        <trans-unit d4:value="1:L" id="CC6F89DB53B44CB791D787757C2A3F28.1">
+            <source>DMBIN_UPPER</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="CC6F89DB53B44CB791D787757C2A3F28.2">
+            <source>DMBIN_LOWER</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="CC6F89DB53B44CB791D787757C2A3F28.3">
+            <source>DMBIN_MIDDLE</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="CC6F89DB53B44CB791D787757C2A3F28.4">
+            <source>DMBIN_MANUAL</source>
+        </trans-unit>
+        <trans-unit d4:value="5:L" id="CC6F89DB53B44CB791D787757C2A3F28.5">
+            <source>DMBIN_ENVELOPE</source>
+        </trans-unit>
+        <trans-unit d4:value="6:L" id="CC6F89DB53B44CB791D787757C2A3F28.6">
+            <source>DMBIN_ENVMANUAL</source>
+        </trans-unit>
+        <trans-unit d4:value="7:L" id="CC6F89DB53B44CB791D787757C2A3F28.7">
+            <source>DMBIN_AUTO</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="CC6F89DB53B44CB791D787757C2A3F28.8">
+            <source>DMBIN_TRACTOR</source>
+        </trans-unit>
+        <trans-unit d4:value="9:L" id="CC6F89DB53B44CB791D787757C2A3F28.9">
+            <source>DMBIN_SMALLFMT</source>
+        </trans-unit>
+        <trans-unit d4:value="10:L" id="CC6F89DB53B44CB791D787757C2A3F28.10">
+            <source>DMBIN_LARGEFMT</source>
+        </trans-unit>
+        <trans-unit d4:value="11:L" id="CC6F89DB53B44CB791D787757C2A3F28.11">
+            <source>DMBIN_LARGECAPACITY</source>
+        </trans-unit>
+        <trans-unit d4:value="14:L" id="CC6F89DB53B44CB791D787757C2A3F28.12">
+            <source>DMBIN_CASSETTE</source>
+        </trans-unit>
+        <trans-unit d4:value="15:L" id="CC6F89DB53B44CB791D787757C2A3F28.13">
+            <source>DMBIN_FORMSOURCE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="6938C5AF6EC849DD8A58824CB6860A09" resname="6938C5AF6EC849DD8A58824CB6860A09" translate="no">
+            <source>DMPAPER</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="6938C5AF6EC849DD8A58824CB6860A09">
+        <trans-unit d4:value="1:L" id="6938C5AF6EC849DD8A58824CB6860A09.1">
+            <source>DMPAPER_LETTER</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="6938C5AF6EC849DD8A58824CB6860A09.2">
+            <source>DMPAPER_LETTERSMALL</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="6938C5AF6EC849DD8A58824CB6860A09.3">
+            <source>DMPAPER_TABLOID</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="6938C5AF6EC849DD8A58824CB6860A09.4">
+            <source>DMPAPER_LEDGER</source>
+        </trans-unit>
+        <trans-unit d4:value="5:L" id="6938C5AF6EC849DD8A58824CB6860A09.5">
+            <source>DMPAPER_LEGAL</source>
+        </trans-unit>
+        <trans-unit d4:value="6:L" id="6938C5AF6EC849DD8A58824CB6860A09.6">
+            <source>DMPAPER_STATEMENT</source>
+        </trans-unit>
+        <trans-unit d4:value="7:L" id="6938C5AF6EC849DD8A58824CB6860A09.7">
+            <source>DMPAPER_EXECUTIVE</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="6938C5AF6EC849DD8A58824CB6860A09.8">
+            <source>DMPAPER_A3</source>
+        </trans-unit>
+        <trans-unit d4:value="9:L" id="6938C5AF6EC849DD8A58824CB6860A09.9">
+            <source>DMPAPER_A4</source>
+        </trans-unit>
+        <trans-unit d4:value="10:L" id="6938C5AF6EC849DD8A58824CB6860A09.10">
+            <source>DMPAPER_A4SMALL</source>
+        </trans-unit>
+        <trans-unit d4:value="11:L" id="6938C5AF6EC849DD8A58824CB6860A09.11">
+            <source>DMPAPER_A5</source>
+        </trans-unit>
+        <trans-unit d4:value="12:L" id="6938C5AF6EC849DD8A58824CB6860A09.12">
+            <source>DMPAPER_B4</source>
+        </trans-unit>
+        <trans-unit d4:value="13:L" id="6938C5AF6EC849DD8A58824CB6860A09.13">
+            <source>DMPAPER_B5</source>
+        </trans-unit>
+        <trans-unit d4:value="14:L" id="6938C5AF6EC849DD8A58824CB6860A09.14">
+            <source>DMPAPER_FOLIO</source>
+        </trans-unit>
+        <trans-unit d4:value="15:L" id="6938C5AF6EC849DD8A58824CB6860A09.15">
+            <source>DMPAPER_QUARTO</source>
+        </trans-unit>
+        <trans-unit d4:value="16:L" id="6938C5AF6EC849DD8A58824CB6860A09.16">
+            <source>DMPAPER_10X14</source>
+        </trans-unit>
+        <trans-unit d4:value="17:L" id="6938C5AF6EC849DD8A58824CB6860A09.17">
+            <source>DMPAPER_11X17</source>
+        </trans-unit>
+        <trans-unit d4:value="18:L" id="6938C5AF6EC849DD8A58824CB6860A09.18">
+            <source>DMPAPER_NOTE</source>
+        </trans-unit>
+        <trans-unit d4:value="19:L" id="6938C5AF6EC849DD8A58824CB6860A09.19">
+            <source>DMPAPER_ENV_9</source>
+        </trans-unit>
+        <trans-unit d4:value="20:L" id="6938C5AF6EC849DD8A58824CB6860A09.20">
+            <source>DMPAPER_ENV_10</source>
+        </trans-unit>
+        <trans-unit d4:value="21:L" id="6938C5AF6EC849DD8A58824CB6860A09.21">
+            <source>DMPAPER_ENV_11</source>
+        </trans-unit>
+        <trans-unit d4:value="22:L" id="6938C5AF6EC849DD8A58824CB6860A09.22">
+            <source>DMPAPER_ENV_12</source>
+        </trans-unit>
+        <trans-unit d4:value="23:L" id="6938C5AF6EC849DD8A58824CB6860A09.23">
+            <source>DMPAPER_ENV_14</source>
+        </trans-unit>
+        <trans-unit d4:value="24:L" id="6938C5AF6EC849DD8A58824CB6860A09.24">
+            <source>DMPAPER_CSHEET</source>
+        </trans-unit>
+        <trans-unit d4:value="25:L" id="6938C5AF6EC849DD8A58824CB6860A09.25">
+            <source>DMPAPER_DSHEET</source>
+        </trans-unit>
+        <trans-unit d4:value="26:L" id="6938C5AF6EC849DD8A58824CB6860A09.26">
+            <source>DMPAPER_ESHEET</source>
+        </trans-unit>
+        <trans-unit d4:value="27:L" id="6938C5AF6EC849DD8A58824CB6860A09.27">
+            <source>DMPAPER_ENV_DL</source>
+        </trans-unit>
+        <trans-unit d4:value="28:L" id="6938C5AF6EC849DD8A58824CB6860A09.28">
+            <source>DMPAPER_ENV_C5</source>
+        </trans-unit>
+        <trans-unit d4:value="29:L" id="6938C5AF6EC849DD8A58824CB6860A09.29">
+            <source>DMPAPER_ENV_C3</source>
+        </trans-unit>
+        <trans-unit d4:value="30:L" id="6938C5AF6EC849DD8A58824CB6860A09.30">
+            <source>DMPAPER_ENV_C4</source>
+        </trans-unit>
+        <trans-unit d4:value="31:L" id="6938C5AF6EC849DD8A58824CB6860A09.31">
+            <source>DMPAPER_ENV_C6</source>
+        </trans-unit>
+        <trans-unit d4:value="32:L" id="6938C5AF6EC849DD8A58824CB6860A09.32">
+            <source>DMPAPER_ENV_C65</source>
+        </trans-unit>
+        <trans-unit d4:value="33:L" id="6938C5AF6EC849DD8A58824CB6860A09.33">
+            <source>DMPAPER_ENV_B4</source>
+        </trans-unit>
+        <trans-unit d4:value="34:L" id="6938C5AF6EC849DD8A58824CB6860A09.34">
+            <source>DMPAPER_ENV_B5</source>
+        </trans-unit>
+        <trans-unit d4:value="35:L" id="6938C5AF6EC849DD8A58824CB6860A09.35">
+            <source>DMPAPER_ENV_B6</source>
+        </trans-unit>
+        <trans-unit d4:value="36:L" id="6938C5AF6EC849DD8A58824CB6860A09.36">
+            <source>DMPAPER_ENV_ITALY</source>
+        </trans-unit>
+        <trans-unit d4:value="37:L" id="6938C5AF6EC849DD8A58824CB6860A09.37">
+            <source>DMPAPER_ENV_MONARCH</source>
+        </trans-unit>
+        <trans-unit d4:value="38:L" id="6938C5AF6EC849DD8A58824CB6860A09.38">
+            <source>DMPAPER_ENV_PERSONAL</source>
+        </trans-unit>
+        <trans-unit d4:value="39:L" id="6938C5AF6EC849DD8A58824CB6860A09.39">
+            <source>DMPAPER_FANFOLD_US</source>
+        </trans-unit>
+        <trans-unit d4:value="40:L" id="6938C5AF6EC849DD8A58824CB6860A09.40">
+            <source>DMPAPER_FANFOLD_STD_GERMAN</source>
+        </trans-unit>
+        <trans-unit d4:value="41:L" id="6938C5AF6EC849DD8A58824CB6860A09.41">
+            <source>DMPAPER_FANFOLD_LGL_GERMAN</source>
+        </trans-unit>
+        <trans-unit d4:value="42:L" id="6938C5AF6EC849DD8A58824CB6860A09.42">
+            <source>DMPAPER_ISO_B4</source>
+        </trans-unit>
+        <trans-unit d4:value="43:L" id="6938C5AF6EC849DD8A58824CB6860A09.43">
+            <source>DMPAPER_JAPANESE_POSTCARD</source>
+        </trans-unit>
+        <trans-unit d4:value="44:L" id="6938C5AF6EC849DD8A58824CB6860A09.44">
+            <source>DMPAPER_9X11</source>
+        </trans-unit>
+        <trans-unit d4:value="45:L" id="6938C5AF6EC849DD8A58824CB6860A09.45">
+            <source>DMPAPER_10X11</source>
+        </trans-unit>
+        <trans-unit d4:value="46:L" id="6938C5AF6EC849DD8A58824CB6860A09.46">
+            <source>DMPAPER_15X11</source>
+        </trans-unit>
+        <trans-unit d4:value="47:L" id="6938C5AF6EC849DD8A58824CB6860A09.47">
+            <source>DMPAPER_ENV_INVITE</source>
+        </trans-unit>
+        <trans-unit d4:value="48:L" id="6938C5AF6EC849DD8A58824CB6860A09.48">
+            <source>DMPAPER_RESERVED_48</source>
+        </trans-unit>
+        <trans-unit d4:value="49:L" id="6938C5AF6EC849DD8A58824CB6860A09.49">
+            <source>DMPAPER_RESERVED_49</source>
+        </trans-unit>
+        <trans-unit d4:value="50:L" id="6938C5AF6EC849DD8A58824CB6860A09.50">
+            <source>DMPAPER_LETTER_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="51:L" id="6938C5AF6EC849DD8A58824CB6860A09.51">
+            <source>DMPAPER_LEGAL_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="52:L" id="6938C5AF6EC849DD8A58824CB6860A09.52">
+            <source>DMPAPER_TABLOID_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="53:L" id="6938C5AF6EC849DD8A58824CB6860A09.53">
+            <source>DMPAPER_A4_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="54:L" id="6938C5AF6EC849DD8A58824CB6860A09.54">
+            <source>DMPAPER_LETTER_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="55:L" id="6938C5AF6EC849DD8A58824CB6860A09.55">
+            <source>DMPAPER_A4_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="56:L" id="6938C5AF6EC849DD8A58824CB6860A09.56">
+            <source>DMPAPER_LETTER_EXTRA_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="57:L" id="6938C5AF6EC849DD8A58824CB6860A09.57">
+            <source>DMPAPER_A_PLUS</source>
+        </trans-unit>
+        <trans-unit d4:value="58:L" id="6938C5AF6EC849DD8A58824CB6860A09.58">
+            <source>DMPAPER_B_PLUS</source>
+        </trans-unit>
+        <trans-unit d4:value="59:L" id="6938C5AF6EC849DD8A58824CB6860A09.59">
+            <source>DMPAPER_LETTER_PLUS</source>
+        </trans-unit>
+        <trans-unit d4:value="60:L" id="6938C5AF6EC849DD8A58824CB6860A09.60">
+            <source>DMPAPER_A4_PLUS</source>
+        </trans-unit>
+        <trans-unit d4:value="61:L" id="6938C5AF6EC849DD8A58824CB6860A09.61">
+            <source>DMPAPER_A5_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="62:L" id="6938C5AF6EC849DD8A58824CB6860A09.62">
+            <source>DMPAPER_B5_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="63:L" id="6938C5AF6EC849DD8A58824CB6860A09.63">
+            <source>DMPAPER_A3_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="64:L" id="6938C5AF6EC849DD8A58824CB6860A09.64">
+            <source>DMPAPER_A5_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="65:L" id="6938C5AF6EC849DD8A58824CB6860A09.65">
+            <source>DMPAPER_B5_EXTRA</source>
+        </trans-unit>
+        <trans-unit d4:value="66:L" id="6938C5AF6EC849DD8A58824CB6860A09.66">
+            <source>DMPAPER_A2</source>
+        </trans-unit>
+        <trans-unit d4:value="67:L" id="6938C5AF6EC849DD8A58824CB6860A09.67">
+            <source>DMPAPER_A3_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="68:L" id="6938C5AF6EC849DD8A58824CB6860A09.68">
+            <source>DMPAPER_A3_EXTRA_TRANSVERSE</source>
+        </trans-unit>
+        <trans-unit d4:value="69:L" id="6938C5AF6EC849DD8A58824CB6860A09.69">
+            <source>DMPAPER_DBL_JAPANESE_POSTCARD</source>
+        </trans-unit>
+        <trans-unit d4:value="70:L" id="6938C5AF6EC849DD8A58824CB6860A09.70">
+            <source>DMPAPER_A6</source>
+        </trans-unit>
+        <trans-unit d4:value="71:L" id="6938C5AF6EC849DD8A58824CB6860A09.71">
+            <source>DMPAPER_JENV_KAKU2</source>
+        </trans-unit>
+        <trans-unit d4:value="72:L" id="6938C5AF6EC849DD8A58824CB6860A09.72">
+            <source>DMPAPER_JENV_KAKU3</source>
+        </trans-unit>
+        <trans-unit d4:value="73:L" id="6938C5AF6EC849DD8A58824CB6860A09.73">
+            <source>DMPAPER_JENV_CHOU3</source>
+        </trans-unit>
+        <trans-unit d4:value="74:L" id="6938C5AF6EC849DD8A58824CB6860A09.74">
+            <source>DMPAPER_JENV_CHOU4</source>
+        </trans-unit>
+        <trans-unit d4:value="75:L" id="6938C5AF6EC849DD8A58824CB6860A09.75">
+            <source>DMPAPER_LETTER_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="76:L" id="6938C5AF6EC849DD8A58824CB6860A09.76">
+            <source>DMPAPER_A3_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="77:L" id="6938C5AF6EC849DD8A58824CB6860A09.77">
+            <source>DMPAPER_A4_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="78:L" id="6938C5AF6EC849DD8A58824CB6860A09.78">
+            <source>DMPAPER_A5_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="79:L" id="6938C5AF6EC849DD8A58824CB6860A09.79">
+            <source>DMPAPER_B4_JIS_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="80:L" id="6938C5AF6EC849DD8A58824CB6860A09.80">
+            <source>DMPAPER_B5_JIS_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="81:L" id="6938C5AF6EC849DD8A58824CB6860A09.81">
+            <source>DMPAPER_JAPANESE_POSTCARD_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="82:L" id="6938C5AF6EC849DD8A58824CB6860A09.82">
+            <source>DMPAPER_DBL_JAPANESE_POSTCARD_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="83:L" id="6938C5AF6EC849DD8A58824CB6860A09.83">
+            <source>DMPAPER_A6_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="84:L" id="6938C5AF6EC849DD8A58824CB6860A09.84">
+            <source>DMPAPER_JENV_KAKU2_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="85:L" id="6938C5AF6EC849DD8A58824CB6860A09.85">
+            <source>DMPAPER_JENV_KAKU3_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="86:L" id="6938C5AF6EC849DD8A58824CB6860A09.86">
+            <source>DMPAPER_JENV_CHOU3_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="87:L" id="6938C5AF6EC849DD8A58824CB6860A09.87">
+            <source>DMPAPER_JENV_CHOU4_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="88:L" id="6938C5AF6EC849DD8A58824CB6860A09.88">
+            <source>DMPAPER_B6_JIS</source>
+        </trans-unit>
+        <trans-unit d4:value="89:L" id="6938C5AF6EC849DD8A58824CB6860A09.89">
+            <source>DMPAPER_B6_JIS_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="90:L" id="6938C5AF6EC849DD8A58824CB6860A09.90">
+            <source>DMPAPER_12X11</source>
+        </trans-unit>
+        <trans-unit d4:value="91:L" id="6938C5AF6EC849DD8A58824CB6860A09.91">
+            <source>DMPAPER_JENV_YOU4</source>
+        </trans-unit>
+        <trans-unit d4:value="92:L" id="6938C5AF6EC849DD8A58824CB6860A09.92">
+            <source>DMPAPER_JENV_YOU4_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="93:L" id="6938C5AF6EC849DD8A58824CB6860A09.93">
+            <source>DMPAPER_P16K</source>
+        </trans-unit>
+        <trans-unit d4:value="94:L" id="6938C5AF6EC849DD8A58824CB6860A09.94">
+            <source>DMPAPER_P32K</source>
+        </trans-unit>
+        <trans-unit d4:value="95:L" id="6938C5AF6EC849DD8A58824CB6860A09.95">
+            <source>DMPAPER_P32KBIG</source>
+        </trans-unit>
+        <trans-unit d4:value="96:L" id="6938C5AF6EC849DD8A58824CB6860A09.96">
+            <source>DMPAPER_PENV_1</source>
+        </trans-unit>
+        <trans-unit d4:value="97:L" id="6938C5AF6EC849DD8A58824CB6860A09.97">
+            <source>DMPAPER_PENV_2</source>
+        </trans-unit>
+        <trans-unit d4:value="98:L" id="6938C5AF6EC849DD8A58824CB6860A09.98">
+            <source>DMPAPER_PENV_3</source>
+        </trans-unit>
+        <trans-unit d4:value="99:L" id="6938C5AF6EC849DD8A58824CB6860A09.99">
+            <source>DMPAPER_PENV_4</source>
+        </trans-unit>
+        <trans-unit d4:value="100:L" id="6938C5AF6EC849DD8A58824CB6860A09.100">
+            <source>DMPAPER_PENV_5</source>
+        </trans-unit>
+        <trans-unit d4:value="101:L" id="6938C5AF6EC849DD8A58824CB6860A09.101">
+            <source>DMPAPER_PENV_6</source>
+        </trans-unit>
+        <trans-unit d4:value="102:L" id="6938C5AF6EC849DD8A58824CB6860A09.102">
+            <source>DMPAPER_PENV_7</source>
+        </trans-unit>
+        <trans-unit d4:value="103:L" id="6938C5AF6EC849DD8A58824CB6860A09.103">
+            <source>DMPAPER_PENV_8</source>
+        </trans-unit>
+        <trans-unit d4:value="104:L" id="6938C5AF6EC849DD8A58824CB6860A09.104">
+            <source>DMPAPER_PENV_9</source>
+        </trans-unit>
+        <trans-unit d4:value="105:L" id="6938C5AF6EC849DD8A58824CB6860A09.105">
+            <source>DMPAPER_PENV_10</source>
+        </trans-unit>
+        <trans-unit d4:value="106:L" id="6938C5AF6EC849DD8A58824CB6860A09.106">
+            <source>DMPAPER_P16K_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="107:L" id="6938C5AF6EC849DD8A58824CB6860A09.107">
+            <source>DMPAPER_P32K_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="108:L" id="6938C5AF6EC849DD8A58824CB6860A09.108">
+            <source>DMPAPER_P32KBIG_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="109:L" id="6938C5AF6EC849DD8A58824CB6860A09.109">
+            <source>DMPAPER_PENV_1_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="110:L" id="6938C5AF6EC849DD8A58824CB6860A09.110">
+            <source>DMPAPER_PENV_2_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="111:L" id="6938C5AF6EC849DD8A58824CB6860A09.111">
+            <source>DMPAPER_PENV_3_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="112:L" id="6938C5AF6EC849DD8A58824CB6860A09.112">
+            <source>DMPAPER_PENV_4_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="113:L" id="6938C5AF6EC849DD8A58824CB6860A09.113">
+            <source>DMPAPER_PENV_5_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="114:L" id="6938C5AF6EC849DD8A58824CB6860A09.114">
+            <source>DMPAPER_PENV_6_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="115:L" id="6938C5AF6EC849DD8A58824CB6860A09.115">
+            <source>DMPAPER_PENV_7_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="116:L" id="6938C5AF6EC849DD8A58824CB6860A09.116">
+            <source>DMPAPER_PENV_8_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="117:L" id="6938C5AF6EC849DD8A58824CB6860A09.117">
+            <source>DMPAPER_PENV_9_ROTATED</source>
+        </trans-unit>
+        <trans-unit d4:value="118:L" id="6938C5AF6EC849DD8A58824CB6860A09.118">
+            <source>DMPAPER_PENV_10_ROTATED</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="CAA7010974884B369B1D65A7FB5755E4" resname="CAA7010974884B369B1D65A7FB5755E4" translate="no">
+            <source>DMDO</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="CAA7010974884B369B1D65A7FB5755E4">
+        <trans-unit d4:value="0:L" id="CAA7010974884B369B1D65A7FB5755E4.1">
+            <source>DMDO_DEFAULT</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="CAA7010974884B369B1D65A7FB5755E4.2">
+            <source>DMDO_90</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="CAA7010974884B369B1D65A7FB5755E4.3">
+            <source>DMDO_180</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="CAA7010974884B369B1D65A7FB5755E4.4">
+            <source>DMDO_270</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="0D0477B5256B4BAEA63CA7B88B9D8F3E" resname="0D0477B5256B4BAEA63CA7B88B9D8F3E" translate="no">
+            <source>DMDFO</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="0D0477B5256B4BAEA63CA7B88B9D8F3E">
+        <trans-unit d4:value="0:L" id="0D0477B5256B4BAEA63CA7B88B9D8F3E.1">
+            <source>DMDFO_DEFAULT</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="0D0477B5256B4BAEA63CA7B88B9D8F3E.2">
+            <source>DMDFO_STRETCH</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="0D0477B5256B4BAEA63CA7B88B9D8F3E.3">
+            <source>DMDFO_CENTER</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="5EA774E6270840AB9C1746C801960B5B" resname="5EA774E6270840AB9C1746C801960B5B" translate="no">
+            <source>DMCOLOR</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="5EA774E6270840AB9C1746C801960B5B">
+        <trans-unit d4:value="1:L" id="5EA774E6270840AB9C1746C801960B5B.1">
+            <source>DMCOLOR_MONOCHROME</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="5EA774E6270840AB9C1746C801960B5B.2">
+            <source>DMCOLOR_COLOR</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="606D55E4333243C4A553116672DE3B77" resname="606D55E4333243C4A553116672DE3B77" translate="no">
+            <source>DMDUP</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="606D55E4333243C4A553116672DE3B77">
+        <trans-unit d4:value="1:L" id="606D55E4333243C4A553116672DE3B77.1">
+            <source>DMDUP_SIMPLEX</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="606D55E4333243C4A553116672DE3B77.2">
+            <source>DMDUP_VERTICAL</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="606D55E4333243C4A553116672DE3B77.3">
+            <source>DMDUP_HORIZONTAL</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="059D857E33B94C47B631A4383484311E" resname="059D857E33B94C47B631A4383484311E" translate="no">
+            <source>DMCOLLATE</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="059D857E33B94C47B631A4383484311E">
+        <trans-unit d4:value="0:L" id="059D857E33B94C47B631A4383484311E.1">
+            <source>DMCOLLATE_FALSE</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="059D857E33B94C47B631A4383484311E.2">
+            <source>DMCOLLATE_TRUE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="6FBBCF38F8B04000AAAA8F863367703F" resname="6FBBCF38F8B04000AAAA8F863367703F" translate="no">
+            <source>DMDITHER</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="6FBBCF38F8B04000AAAA8F863367703F">
+        <trans-unit d4:value="1:L" id="6FBBCF38F8B04000AAAA8F863367703F.1">
+            <source>DMDITHER_NONE</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="6FBBCF38F8B04000AAAA8F863367703F.2">
+            <source>DMDITHER_COARSE</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="6FBBCF38F8B04000AAAA8F863367703F.3">
+            <source>DMDITHER_FINE</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="6FBBCF38F8B04000AAAA8F863367703F.4">
+            <source>DMDITHER_LINEART</source>
+        </trans-unit>
+        <trans-unit d4:value="5:L" id="6FBBCF38F8B04000AAAA8F863367703F.5">
+            <source>DMDITHER_ERRORDIFFUSION</source>
+        </trans-unit>
+        <trans-unit d4:value="6:L" id="6FBBCF38F8B04000AAAA8F863367703F.6">
+            <source>DMDITHER_RESERVED6</source>
+        </trans-unit>
+        <trans-unit d4:value="7:L" id="6FBBCF38F8B04000AAAA8F863367703F.7">
+            <source>DMDITHER_RESERVED7</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="6FBBCF38F8B04000AAAA8F863367703F.8">
+            <source>DMDITHER_RESERVED8</source>
+        </trans-unit>
+        <trans-unit d4:value="9:L" id="6FBBCF38F8B04000AAAA8F863367703F.9">
+            <source>DMDITHER_RESERVED9</source>
+        </trans-unit>
+        <trans-unit d4:value="10:L" id="6FBBCF38F8B04000AAAA8F863367703F.10">
+            <source>DMDITHER_GRAYSCALE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="6AE2DBF848064BB38E4E1A3A572F153B" resname="6AE2DBF848064BB38E4E1A3A572F153B" translate="no">
+            <source>DMMEDIA</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="6AE2DBF848064BB38E4E1A3A572F153B">
+        <trans-unit d4:value="1:L" id="6AE2DBF848064BB38E4E1A3A572F153B.1">
+            <source>DMMEDIA_STANDARD</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="6AE2DBF848064BB38E4E1A3A572F153B.2">
+            <source>DMMEDIA_TRANSPARENCY</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="6AE2DBF848064BB38E4E1A3A572F153B.3">
+            <source>DMMEDIA_GLOSSY</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="9C6B069D245F470486BB5E7BD7C77E6C" resname="9C6B069D245F470486BB5E7BD7C77E6C" translate="no">
+            <source>DMICM</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="9C6B069D245F470486BB5E7BD7C77E6C">
+        <trans-unit d4:value="1:L" id="9C6B069D245F470486BB5E7BD7C77E6C.1">
+            <source>DMICM_SATURATE</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="9C6B069D245F470486BB5E7BD7C77E6C.2">
+            <source>DMICM_CONTRAST</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="9C6B069D245F470486BB5E7BD7C77E6C.3">
+            <source>DMICM_COLORIMETRIC</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="9C6B069D245F470486BB5E7BD7C77E6C.4">
+            <source>DMICM_ABS_COLORIMETRIC</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="BB6B3A3271EF4C5B84ADC838157EA830" resname="BB6B3A3271EF4C5B84ADC838157EA830" translate="no">
+            <source>DMICMMETHOD</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="BB6B3A3271EF4C5B84ADC838157EA830">
+        <trans-unit d4:value="1:L" id="BB6B3A3271EF4C5B84ADC838157EA830.1">
+            <source>DMICMMETHOD_NONE</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="BB6B3A3271EF4C5B84ADC838157EA830.2">
+            <source>DMICMMETHOD_SYSTEM</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="BB6B3A3271EF4C5B84ADC838157EA830.3">
+            <source>DMICMMETHOD_DRIVER</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="BB6B3A3271EF4C5B84ADC838157EA830.4">
+            <source>DMICMMETHOD_DEVICE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="2EF98A3839B0403E8D155E3B70B5B813" resname="2EF98A3839B0403E8D155E3B70B5B813" translate="no">
+            <source>DMTT</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="2EF98A3839B0403E8D155E3B70B5B813">
+        <trans-unit d4:value="1:L" id="2EF98A3839B0403E8D155E3B70B5B813.1">
+            <source>DMTT_BITMAP</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="2EF98A3839B0403E8D155E3B70B5B813.2">
+            <source>DMTT_DOWNLOAD</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="2EF98A3839B0403E8D155E3B70B5B813.3">
+            <source>DMTT_SUBDEV</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="2EF98A3839B0403E8D155E3B70B5B813.4">
+            <source>DMTT_DOWNLOAD_OUTLINE</source>
+        </trans-unit>
+    </group>
+    <group resname="themes">
+        <trans-unit id="6017C53BF8234744BF519C4AD30ED999" resname="6017C53BF8234744BF519C4AD30ED999" translate="no">
+            <source>DMRES</source>
+        </trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupName="6017C53BF8234744BF519C4AD30ED999">
+        <trans-unit d4:value="-4:L" id="6017C53BF8234744BF519C4AD30ED999.1">
+        <source>DMRES_HIGH</source>
+        </trans-unit>
+        <trans-unit d4:value="-3:L" id="6017C53BF8234744BF519C4AD30ED999.2">
+        <source>DMRES_MEDIUM</source>
+        </trans-unit>
+        <trans-unit d4:value="-2:L" id="6017C53BF8234744BF519C4AD30ED999.3">
+        <source>DMRES_LOW</source>
+        </trans-unit>
+        <trans-unit d4:value="-1:L" id="6017C53BF8234744BF519C4AD30ED999.4">
+        <source>DMRES_DRAFT</source>
+        </trans-unit>
+    </group>
+</xliff>

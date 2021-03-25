@@ -1,6 +1,7 @@
 //%attributes = {"invisible":true}
 C_TEXT:C284($1;$option)
 C_VARIANT:C1683($2)
+C_BOOLEAN:C305($0;$success)
 
 $option:=$1
 
@@ -17,6 +18,8 @@ Case of
 				Use ($DUMMYUNIONNAME2)
 					$DUMMYUNIONNAME2[$option]:=$2
 				End use 
+				
+				$success:=True:C214
 				
 			: ($option="dmColor")\
 				 | ($option="dmDuplex")\
@@ -39,6 +42,8 @@ Case of
 					$DEVMODE[$option]:=$2
 				End use 
 				
+				$success:=True:C214
+				
 			: ($option="dmOrientation")\
 				 | ($option="dmPaperSize")\
 				 | ($option="dmPaperLength")\
@@ -54,6 +59,9 @@ Case of
 					$DUMMYSTRUCTNAME[$option]:=$2
 				End use 
 				
+				$success:=True:C214
+				
 		End case 
-		
 End case 
+
+$0:=$success

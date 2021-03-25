@@ -1,35 +1,25 @@
 ﻿{
 	"editors": [
 		{
-			"type": "explorer"
-		},
-		{
 			"type": "method",
-			"id": 2147483643,
+			"id": 2147483639,
 			"previousTabType": "method",
-			"previousTabID": 2147483641,
+			"previousTabID": 2147483645,
 			"codeDescriptor": {
 				"type": 1,
-				"methodName": "loadSettings"
+				"methodName": "EXAMPLE"
 			}
 		},
 		{
 			"type": "method",
-			"id": 2147483641,
-			"previousTabType": "method",
-			"previousTabID": 2147483646,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "print_settings"
-			}
-		},
-		{
-			"type": "method",
-			"id": 2147483646,
+			"id": 2147483645,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "TEST"
 			}
+		},
+		{
+			"type": "explorer"
 		},
 		{
 			"type": "toolbox"

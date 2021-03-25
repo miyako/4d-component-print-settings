@@ -30,7 +30,33 @@ End if
 
 If (Count parameters:C259#0)
 	
-	$EXPORT.loadSettings($1)  //load from blob
+	C_BLOB:C604($printSettings)
+	
+	Case of 
+		: (Value type:C1509($1)=Is text:K8:3)
+			
+			Case of 
+				: ($1="win@") | ($1="pc@")
+					
+					$printSettings:=Folder:C1567(fk resources folder:K87:11).file("windows.printSettings").getContent()
+					
+				: ($1="mac@") | ($1="appl@")
+					
+					$printSettings:=Folder:C1567(fk resources folder:K87:11).file("apple.printSettings").getContent()
+					
+			End case 
+			
+		: (Value type:C1509($1)=Is BLOB:K8:12)
+			
+			$printSettings:=$1
+			
+	End case 
+	
+	If (BLOB size:C605($printSettings)#0)
+		
+		$EXPORT.loadSettings($printSettings)  //load from blob
+		
+	End if 
 	
 Else 
 	

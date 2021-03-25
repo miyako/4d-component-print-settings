@@ -1,14 +1,18 @@
 ﻿[
 	{
 		"type": 66,
-		"formula": "($size=($o+$jsonSize+$nativeSize))"
+		"formula": "$DUMMYSTRUCTNAME[$option]"
 	},
 	{
 		"type": 66,
-		"formula": "$DEVNAMES_size"
+		"formula": "$DUMMYUNIONNAME2[$option]"
 	},
 	{
 		"type": 66,
-		"formula": "$DEVMODE_size"
+		"formula": "$DEVMODE[$option]"
+	},
+	{
+		"type": 66,
+		"formula": "$DEVMODE"
 	}
 ]

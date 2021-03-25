@@ -196,6 +196,80 @@ Case of
 									$DEVMODE.dmSize:=$dmSize
 									$DEVMODE.dmDriverExtra:=$dmDriverExtra
 									$DEVMODE.dmFields:=$dmFields
+									
+									If ($dmFields ?? 11)  //DM_COLOR
+										$DEVMODE.dmColor:=$dmColor
+									End if 
+									
+									If ($dmFields ?? 12)  //DM_DUPLEX
+										$DEVMODE.dmDuplex:=$dmDuplex
+									End if 
+									
+									If ($dmFields ?? 13)  //DM_YRESOLUTION
+										$DEVMODE.dmYResolution:=$dmYResolution
+									End if 
+									
+									If ($dmFields ?? 14)  //DM_TTOPTION
+										$DEVMODE.dmTTOption:=$dmTTOption
+									End if 
+									
+									If ($dmFields ?? 15)  //DM_COLLATE
+										$DEVMODE.dmCollate:=$dmCollate
+									End if 
+									
+									If ($dmFields ?? 16)  //DM_FORMNAME
+										$DEVMODE.dmFormName:=$dmFormName
+									End if 
+									
+									If ($dmFields ?? 17)  //DM_LOGPIXELS
+										  //not used for printers
+										  //$DEVMODE.dmLogPixels:=$dmLogPixels
+									End if 
+									
+									If ($dmFields ?? 18)  //DM_BITSPERPEL
+										  //not used for printers
+										  //$DEVMODE.dmBitsPerPel:=$dmBitsPerPel
+									End if 
+									
+									If ($dmFields ?? 19)  //DM_PELSWIDTH
+										  //not used for printers
+										  //$DEVMODE.dmPelsWidth:=$dmPelsWidth
+									End if 
+									
+									If ($dmFields ?? 20)  //DM_PELSHEIGHT
+										  //not used for printers
+										  //$DEVMODE.dmPelsHeight:=$dmPelsHeight
+									End if 
+									
+									If ($dmFields ?? 22)  //DM_DISPLAYFREQUENCY
+										  //not used for printers
+										  //$DEVMODE.dmDisplayFrequency:=$dmDisplayFrequency
+									End if 
+									
+									If ($dmFields ?? 23)  //DM_ICMMETHOD
+										$DEVMODE.dmICMMetHod:=$dmICMMethod
+									End if 
+									
+									If ($dmFields ?? 24)  //DM_ICMINTENT
+										$DEVMODE.dmICMintent:=$dmICMIntent
+									End if 
+									
+									If ($dmFields ?? 25)  //DM_MEDIATYPE
+										$DEVMODE.dmMediaType:=$dmMediaType
+									End if 
+									
+									If ($dmFields ?? 26)  //DM_DITHERTYPE
+										$DEVMODE.dmDitherType:=$dmDitherType
+									End if 
+									
+									If ($dmFields ?? 28)  //DM_PANNINGWIDTH
+										$DEVMODE.dmPanningWidth:=$dmPanningWidth
+									End if 
+									
+									If ($dmFields ?? 27)  //DM_PANNINGHEIGHT
+										$DEVMODE.dmPanningHeight:=$dmPanningHeight
+									End if 
+									
 								End use 
 								
 								$DUMMYSTRUCTNAME:=New shared object:C1526
@@ -238,80 +312,7 @@ Case of
 									End if 
 									
 									If ($dmFields ?? 10)  //DM_PRINTERQUALITY
-										$DUMMYSTRUCTNAME.dmPrinterQuality:=$dmPrintQuality
-									End if 
-									
-									If ($dmFields ?? 11)  //DM_COLOR
-										$DUMMYSTRUCTNAME.dmColor:=$dmColor
-									End if 
-									
-									If ($dmFields ?? 12)  //DM_DUPLEX
-										$DUMMYSTRUCTNAME.dmDuplex:=$dmDuplex
-									End if 
-									
-									If ($dmFields ?? 13)  //DM_YRESOLUTION
-										$DUMMYSTRUCTNAME.dmYResolution:=$dmYResolution
-									End if 
-									
-									If ($dmFields ?? 14)  //DM_TTOPTION
-										$DUMMYSTRUCTNAME.dmTTOption:=$dmTTOption
-									End if 
-									
-									If ($dmFields ?? 15)  //DM_COLLATE
-										$DUMMYSTRUCTNAME.dmCollate:=$dmCollate
-									End if 
-									
-									If ($dmFields ?? 22)  //DM_DISPLAYFREQUENCY
-										  //not used for printers
-										  //$DUMMYSTRUCTNAME.dmDisplayFrequency:=$dmDisplayFrequency
-									End if 
-									
-									If ($dmFields ?? 23)  //DM_ICMMETHOD
-										$DUMMYSTRUCTNAME.dmICMMetHod:=$dmICMMethod
-									End if 
-									
-									If ($dmFields ?? 24)  //DM_ICMINTENT
-										$DUMMYSTRUCTNAME.dmICMintent:=$dmICMIntent
-									End if 
-									
-									If ($dmFields ?? 25)  //DM_MEDIATYPE
-										$DUMMYSTRUCTNAME.dmMediaType:=$dmMediaType
-									End if 
-									
-									If ($dmFields ?? 26)  //DM_DITHERTYPE
-										$DUMMYSTRUCTNAME.dmDitherType:=$dmDitherType
-									End if 
-									
-									If ($dmFields ?? 28)  //DM_PANNINGWIDTH
-										$DUMMYSTRUCTNAME.dmPanningWidth:=$dmPanningWidth
-									End if 
-									
-									If ($dmFields ?? 27)  //DM_PANNINGHEIGHT
-										$DUMMYSTRUCTNAME.dmPanningHeight:=$dmPanningHeight
-									End if 
-									
-									If ($dmFields ?? 16)  //DM_FORMNAME
-										$DUMMYSTRUCTNAME.dmFormName:=$dmFormName
-									End if 
-									
-									If ($dmFields ?? 17)  //DM_LOGPIXELS
-										  //not used for printers
-										  //$DUMMYSTRUCTNAME.dmLogPixels:=$dmLogPixels
-									End if 
-									
-									If ($dmFields ?? 18)  //DM_BITSPERPEL
-										  //not used for printers
-										  //$DUMMYSTRUCTNAME.dmBitsPerPel:=$dmBitsPerPel
-									End if 
-									
-									If ($dmFields ?? 19)  //DM_PELSWIDTH
-										  //not used for printers
-										  //$DUMMYSTRUCTNAME.dmPelsWidth:=$dmPelsWidth
-									End if 
-									
-									If ($dmFields ?? 20)  //DM_PELSHEIGHT
-										  //not used for printers
-										  //$DUMMYSTRUCTNAME.dmPelsHeight:=$dmPelsHeight
+										$DUMMYSTRUCTNAME.dmPrintQuality:=$dmPrintQuality
 									End if 
 									
 								End use 
@@ -367,8 +368,12 @@ Case of
 								$pageformat_size:=BLOB to longint:C551($nativeData;PC byte ordering:K22:3;$o)
 								
 								C_BLOB:C604($PMPrintSettings;$PMPageFormat)
+								
 								COPY BLOB:C558($nativeData;$PMPrintSettings;$o;0;$printsettings_size)
-								COPY BLOB:C558($nativeData;$PMPageFormat;$o+$printsettings_size;0;$pageformat_size)
+								$o:=$o+$printsettings_size
+								COPY BLOB:C558($nativeData;$PMPageFormat;$o;0;$pageformat_size)
+								
+								$o:=0
 								
 						End case 
 						
