@@ -51,7 +51,7 @@ the returned object is a shared object representation of `DEVNAMES` or `DEVMODE`
 create a binary print settings BLOB
 
 ```4d
-$printSettings:=print_settings .getSettings()
+$printSettings:=print_settings .generateSettings()
 ```
 
 you can pass this to ``BLOB to print settings``
