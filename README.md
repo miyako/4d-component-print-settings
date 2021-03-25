@@ -21,4 +21,4 @@ $success:=(0<BLOB to print settings($printSettings))
 
 * [`DEVMODE`](https://docs.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-devmodew)と[`DEVNAMES`](https://docs.microsoft.com/en-us/windows/win32/api/commdlg/ns-commdlg-devnames)の読み書きができます。
 
-* `wingdi.h`の定数がそのまま使用できます。
+* `wingdi.h`の[定数](https://github.com/miyako/4d-component-print-settings/blob/main/print_settings/Resources/constants.xlf)がそのまま使用できます。
