@@ -33,13 +33,27 @@ print_settings ("windows")
 
 `print_settings` is a shared component method that creates a shared singleton object in `Storage`.
 
-load a print settings object 
+load a print settings BLOB 
 
 ```4d
 $printSettings:=Folder(fk resources folder).file("windows.printSettings").getContent()
 print_settings ($printSettings)
 ```
 
+access attributes of the `DEVNAMES` or `DEVMODE` object
 
+```4d
+$printSettings:=print_settings .getSettings()
+```
+
+the returned object is a shared object representation of `DEVNAMES` or `DEVMODE`. you can read or write any attribute.
+
+create a binary print settings BLOB
+
+```4d
+$printSettings:=print_settings .getSettings()
+```
+
+you can pass this BLOB to ``BLOB to print settings``
 
 
