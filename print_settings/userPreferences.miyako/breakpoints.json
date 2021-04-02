@@ -1,1 +1,16 @@
-﻿[]
+﻿[
+	{
+		"line": 214,
+		"method": {
+			"type": 1,
+			"methodName": "generateSettings"
+		}
+	},
+	{
+		"line": 130,
+		"method": {
+			"type": 1,
+			"methodName": "loadSettings"
+		}
+	}
+]

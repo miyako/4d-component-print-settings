@@ -6,10 +6,10 @@
 		"height": 713
 	},
 	"Sources/Methods/TEST.4dm": {
-		"left": 294,
-		"top": 200,
-		"width": 951,
-		"height": 713
+		"left": 544,
+		"top": 191,
+		"width": 945,
+		"height": 677
 	},
 	"Trash/Methods/(get_print_settings).4dm": {
 		"left": 605,
@@ -24,16 +24,16 @@
 		"height": 719
 	},
 	"Sources/Methods/getSettings.4dm": {
-		"left": 430,
-		"top": 317,
-		"width": 985,
-		"height": 700
+		"left": 544,
+		"top": 191,
+		"width": 945,
+		"height": 677
 	},
 	"Sources/Methods/generateSettings.4dm": {
-		"left": 294,
-		"top": 200,
-		"width": 951,
-		"height": 713
+		"left": 414,
+		"top": 191,
+		"width": 945,
+		"height": 677
 	},
 	"Sources/Methods/setPrintOption.4dm": {
 		"left": 410,
@@ -60,21 +60,45 @@
 		"height": 646
 	},
 	"Sources/Methods/loadSettings.4dm": {
-		"left": 339,
-		"top": 187,
-		"width": 951,
-		"height": 713
+		"left": 544,
+		"top": 191,
+		"width": 945,
+		"height": 677
 	},
 	"Sources/Methods/EXAMPLE.4dm": {
-		"left": 166,
-		"top": 224,
+		"left": 425,
+		"top": 485,
 		"width": 951,
-		"height": 350
+		"height": 428
 	},
 	"Sources/Methods/TOOL.4dm": {
 		"left": 294,
 		"top": 200,
 		"width": 951,
 		"height": 713
+	},
+	"Sources/Methods/v16_example.4dm": {
+		"left": 313,
+		"top": 129,
+		"width": 945,
+		"height": 677
+	},
+	"Trash/Methods/(set_print_options).4dm": {
+		"left": 425,
+		"top": 485,
+		"width": 951,
+		"height": 428
+	},
+	"Sources/Methods/set_print_color_option.4dm": {
+		"left": 313,
+		"top": 129,
+		"width": 945,
+		"height": 677
+	},
+	"Sources/Methods/get_print_color_option.4dm": {
+		"left": 313,
+		"top": 129,
+		"width": 945,
+		"height": 677
 	}
 }

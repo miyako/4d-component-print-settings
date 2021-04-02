@@ -1,18 +1,1 @@
-﻿[
-	{
-		"type": 66,
-		"formula": "$DUMMYSTRUCTNAME[$option]"
-	},
-	{
-		"type": 66,
-		"formula": "$DUMMYUNIONNAME2[$option]"
-	},
-	{
-		"type": 66,
-		"formula": "$DEVMODE[$option]"
-	},
-	{
-		"type": 66,
-		"formula": "$DEVMODE"
-	}
-]
+﻿[]

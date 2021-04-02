@@ -131,13 +131,6 @@ Case of
 			$dmColor:=$DEVMODE.dmColor
 		End if 
 		
-		
-		
-		
-		
-		
-		
-		
 		If (Value type:C1509($DUMMYSTRUCTNAME.dmNup)=Is real:K8:4)
 			$dmFields:=$dmFields ?+ 6
 			$dmNup:=$DUMMYSTRUCTNAME.dmNup

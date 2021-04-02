@@ -9,10 +9,10 @@
 		"stamp": "2021-03-25T03:53:57.076Z"
 	},
 	"Sources/Methods/TEST.4dm": {
-		"startSelection": 32,
-		"endSelection": 32,
-		"firstSelectedLine": 30,
-		"lastSelectedLine": 30,
+		"startSelection": 92,
+		"endSelection": 92,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-03-25T03:59:09.978Z"
@@ -38,11 +38,11 @@
 	"Sources/Methods/generateSettings.4dm": {
 		"startSelection": 21,
 		"endSelection": 21,
-		"firstSelectedLine": 226,
-		"lastSelectedLine": 226,
+		"firstSelectedLine": 213,
+		"lastSelectedLine": 213,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2021-03-25T03:57:45.079Z"
+		"stamp": "2021-04-02T06:43:54.237Z"
 	},
 	"Sources/Methods/setPrintOption.4dm": {
 		"startSelection": 0,
@@ -54,10 +54,10 @@
 		"stamp": "2021-03-25T03:49:11.241Z"
 	},
 	"Sources/Methods/loadSettings.4dm": {
-		"startSelection": 0,
+		"startSelection": 58,
 		"endSelection": 0,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"firstSelectedLine": 133,
+		"lastSelectedLine": 129,
 		"folding": [
 			318,
 			362
@@ -82,5 +82,32 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-03-25T04:35:14.038Z"
+	},
+	"Sources/Methods/v16_example.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-02T07:28:47.341Z"
+	},
+	"Sources/Methods/set_print_color_option.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-02T07:28:47.350Z"
+	},
+	"Sources/Methods/get_print_color_option.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 91,
+		"lastSelectedLine": 91,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-04-02T07:28:29.496Z"
 	}
 }

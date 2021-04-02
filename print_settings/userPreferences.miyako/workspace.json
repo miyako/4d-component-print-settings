@@ -2,24 +2,72 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483639,
+			"id": 2147483634,
+			"previousTabType": "method",
+			"previousTabID": 2147483635,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "get_print_color_option"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483635,
+			"previousTabType": "method",
+			"previousTabID": 2147483638,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "set_print_color_option"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483638,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "v16_example"
+			}
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483642,
+			"previousTabType": "method",
+			"previousTabID": 2147483643,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "loadSettings"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483643,
 			"previousTabType": "method",
 			"previousTabID": 2147483645,
 			"codeDescriptor": {
 				"type": 1,
-				"methodName": "EXAMPLE"
+				"methodName": "getSettings"
 			}
 		},
 		{
 			"type": "method",
 			"id": 2147483645,
+			"previousTabType": "method",
+			"previousTabID": 2147483646,
 			"codeDescriptor": {
 				"type": 1,
 				"methodName": "TEST"
 			}
 		},
 		{
-			"type": "explorer"
+			"type": "method",
+			"id": 2147483646,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "generateSettings"
+			}
 		},
 		{
 			"type": "toolbox"
